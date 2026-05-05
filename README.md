@@ -4,9 +4,7 @@
 
 
 ## 📌 Giới thiệu dự án
-Dự án xây dựng một hệ thống hỏi đáp thông minh trong lĩnh vực y tế dành cho người Việt. Bằng cách kết hợp sức mạnh của các Mô hình ngôn ngữ lớn (LLM) và kiến trúc **Retrieval-Augmented Generation (RAG)**, hệ thống có khả năng cung cấp các câu trả lời chính xác, đáng tin cậy và có dẫn chứng từ nguồn tri thức y khoa uy tín.
-
-Dự án này là một phần của học phần Project II & Graduation Research 1 tại Trường CNTT & Truyền thông - Đại học Bách Khoa Hà Nội.
+Dự án xây dựng một hệ thống hỏi đáp trong lĩnh vực y tế dành cho người Việt. Bằng cách kết hợp sức mạnh của các Mô hình ngôn ngữ lớn (LLM) và kiến trúc **Retrieval-Augmented Generation (RAG)**, hệ thống có khả năng cung cấp các câu trả lời chính xác, đáng tin cậy và có dẫn chứng từ nguồn tri thức y khoa uy tín.
 
 ## ✨ Tính năng nổi bật
 *   **Kiến trúc RAG:** Giảm thiểu hiện tượng "ảo giác" (hallucination) của LLM bằng cách truy xuất thông tin từ cơ sở dữ liệu tri thức ngoài trước khi sinh câu trả lời.
