@@ -2,6 +2,7 @@
 
 ![LLM](https://img.shields.io/badge/Llama--3.1--8B-Fine--tuned-orange) ![RAG](https://img.shields.io/badge/Architecture-RAG-green)
 
+
 ## 📌 Giới thiệu dự án
 Dự án xây dựng một hệ thống hỏi đáp thông minh trong lĩnh vực y tế dành cho người Việt. Bằng cách kết hợp sức mạnh của các Mô hình ngôn ngữ lớn (LLM) và kiến trúc **Retrieval-Augmented Generation (RAG)**, hệ thống có khả năng cung cấp các câu trả lời chính xác, đáng tin cậy và có dẫn chứng từ nguồn tri thức y khoa uy tín.
 
