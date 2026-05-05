@@ -1,9 +1,9 @@
 # VitaCare AI: Hệ thống Hỏi đáp Y tế Tiếng Việt (RAG-based)
 
-![VitaCare AI Banner](https://img.shields.io/badge/Project-II-blue) ![LLM](https://img.shields.io/badge/Llama--3.1--8B-Fine--tuned-orange) ![RAG](https://img.shields.io/badge/Architecture-RAG-green)
+![LLM](https://img.shields.io/badge/Llama--3.1--8B-Fine--tuned-orange) ![RAG](https://img.shields.io/badge/Architecture-RAG-green)
 
 ## 📌 Giới thiệu dự án
-Dự án tập trung xây dựng một hệ thống hỏi đáp thông minh trong lĩnh vực y tế dành cho người Việt. Bằng cách kết hợp sức mạnh của các Mô hình ngôn ngữ lớn (LLM) và kiến trúc **Retrieval-Augmented Generation (RAG)**, hệ thống có khả năng cung cấp các câu trả lời chính xác, đáng tin cậy và có dẫn chứng từ nguồn tri thức y khoa uy tín.
+Dự án xây dựng một hệ thống hỏi đáp thông minh trong lĩnh vực y tế dành cho người Việt. Bằng cách kết hợp sức mạnh của các Mô hình ngôn ngữ lớn (LLM) và kiến trúc **Retrieval-Augmented Generation (RAG)**, hệ thống có khả năng cung cấp các câu trả lời chính xác, đáng tin cậy và có dẫn chứng từ nguồn tri thức y khoa uy tín.
 
 Dự án này là một phần của học phần Project II & Graduation Research 1 tại Trường CNTT & Truyền thông - Đại học Bách Khoa Hà Nội.
 
@@ -15,7 +15,7 @@ Dự án này là một phần của học phần Project II & Graduation Resear
 
 ## 🏗️ Kiến trúc hệ thống
 Hệ thống bao gồm 3 thành phần chính:
-1.  **Module Truy xuất (Retriever):** Sử dụng mô hình `paraphrase-multilingual-mpnet-base-v2` để nhúng (embed) câu hỏi và tìm kiếm ngữ cảnh tương đồng trong **Qdrant Vector Database**.
+1.  **Module Truy xuất (Retriever):** Sử dụng mô hình `paraphrase-multilingual-mpnet-base-v2` để nhúng câu hỏi và tìm kiếm ngữ cảnh tương đồng trong **Qdrant Vector Database**.
 2.  **Module Sinh câu trả lời (Generator):** Sử dụng mô hình `Llama-3.1-8B-Instruct` đã được fine-tune để tổng hợp thông tin từ ngữ cảnh và sinh câu trả lời tự nhiên.
 3.  **Module Điều phối:** Sử dụng framework **LangChain** để kết nối các thành phần và quản lý luồng dữ liệu.
 
