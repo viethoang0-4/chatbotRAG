@@ -1,0 +1,26 @@
+# Loại trừ file báo cáo
+*.docx
+*.pdf
+
+# Loại trừ các file script tạm thời của python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Loại trừ các file checkpoint hoặc dữ liệu lớn (nếu có)
+*.jsonl
+*.parquet
+*.zip
+*.ipynb_checkpoints/
+
+# Loại trừ các file logs
+*.log
+md_output.txt
+cells_output.txt
+ai_traces_utf8.txt
+first_cells.txt
+ai_traces.txt
+check_header.txt
